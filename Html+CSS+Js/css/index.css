@@ -1,0 +1,303 @@
+.clearfix :after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+nav {
+    background: #2e3842;
+    height: 50px;
+}
+
+.page-wraapper {
+    background: url('../images/banner.jpg');
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.hr {
+    width: 100%;
+    height: 2px;
+    margin: 20px auto;
+}
+
+#banner {
+    background: transparent;
+    height: 700px;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li,
+nav .logo {
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+nav a {
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: #fff;
+}
+
+nav .logo {
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 0px 10px;
+}
+
+#banner .inner {
+    max-width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#banner .inner h1 {
+    margin: 0;
+}
+
+button {
+    border: none;
+    background: rgb(250, 5, 5);
+    color: #fff;
+    padding: 10px 25px;
+}
+
+#banner .inner .more {
+    margin-top: 210px;
+}
+
+.sub-head {
+    line-height: 30px;
+    margin: 30px 0px;
+}
+
+.inner button {
+    padding: 12px 60px;
+    border-radius: 3px;
+}
+
+.logo a {
+    color: #fff;
+}
+
+.green {
+    text-align: center;
+    background: #21b2a6;
+    color: #fff;
+    padding: 100px 0px;
+}
+
+.green .hr {
+    background: #1470694a;
+    width: 60%;
+}
+
+.wrapper {
+    max-width: 1080px;
+    margin: 0px auto;
+}
+
+h2 {
+    margin: 0px;
+    letter-spacing: 3px;
+}
+
+.icon-group {
+    margin-top: 60px;
+}
+
+.green .icon {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.125);
+    transform: rotate(45deg);
+    margin: 0px 30px;
+}
+
+.gray {
+    background: rgba(43, 52, 61, 1);
+    color: #fff;
+}
+
+.gray .img-section {
+    width: 45%;
+}
+
+.img-section img {
+    width: 100%;
+}
+
+.gray .text-section {
+    width: 55%;
+}
+
+.preview>div {
+    float: left;
+}
+
+.preview:nth-child(even) {
+    background: rgba(36, 43, 51, 1);
+}
+
+.preview:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.text-section {
+    position: relative;
+    top: 110px;
+    left: 70px;
+}
+
+.text-section h2 {
+    margin-bottom: 25px;
+}
+
+.text-section>* {
+    max-width: 90%;
+}
+
+.content .purple {
+    background: #505393;
+    color: #fff;
+    padding: 80px;
+    height: 1100px;
+    ;
+}
+
+.purple .head-wrapper {
+    text-align: center;
+}
+
+.purple .hr {
+    background: black;
+    width: 50%;
+}
+
+.purple .card-group {
+    text-align: left;
+    margin-top: 70px;
+}
+
+.purple .card {
+    /* text-align: center; */
+    float: left;
+    width: 50%;
+    min-height: 300px;
+    padding: 45px 0px 0px 80px;
+    box-sizing: border-box;
+}
+
+.purple .sub-head {
+    margin: 0 auto;
+    width: 70%
+}
+
+.purple .card p {
+    width: 50%;
+}
+
+.card:first-child {
+    background: rgba(0, 0, 0, 0.035)
+}
+
+.card:nth-child(2) {
+    background: rgba(0, 0, 0, 0.07)
+}
+
+.card:nth-child(3) {
+    background: rgba(0, 0, 0, 0.105)
+}
+
+.card:nth-child(4) {
+    background: rgba(0, 0, 0, 0.14)
+}
+
+.card:nth-child(5) {
+    background: rgba(0, 0, 0, 0.175)
+}
+
+.card:nth-child(6) {
+    background: rgba(0, 0, 0, 0.2)
+}
+
+.section-tail .inner {
+    margin: 0px auto;
+    color: #fff;
+    display: flex;
+    height: 270px;
+}
+
+.section-tail header {
+    margin: 80px 0px 0px 150px;
+}
+
+.section-tail header p {
+    width: 60%;
+    line-height: 25px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+
+.ul-tail {
+    margin: 90px 0px 0px 0px;
+}
+
+.ul-tail li {
+    padding-top: 10px;
+}
+
+.ul-tail .button {
+    display: block;
+    margin: 0 0 1em 0;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.ul-tail .button.st {
+    height: 40px;
+    width: 210px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #ed4933;
+    box-shadow: none !important;
+    color: #ffffff !important;
+}
+
+.ul-tail .button.nd {
+    height: 40px;
+    width: 210px;
+    line-height: 40px;
+    text-align: center;
+    background: transparent;
+    box-shadow: none !important;
+    color: #ffffff !important;
+    border: 2px solid #fff;
+}
